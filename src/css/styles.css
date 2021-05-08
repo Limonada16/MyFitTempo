@@ -1,0 +1,139 @@
+*{
+    margin:0;
+    box-sizing:border-box;
+    padding:0;
+    }
+    .bkg{
+        background-image: url(../img/texturaOxidada.png);
+    }
+    .navbar__princi{
+        background-color: #2C2B2B;
+        display: flex;
+        gap: 60%;
+        margin-bottom: 0px !important;
+    }
+    .ul__princi{
+        display: flex;  
+        align-items: center;
+        gap: 20px;
+    }
+    .btn__link{
+        background-color: #FEC600;
+        border: 0px;
+        width: 100px;
+        border-radius: 5px;
+    }
+    .btn__link:hover{
+        cursor: pointer;
+    }
+    .main__cont{
+        background-image: url(../img/pexels-ketut-subiyanto-5039659.jpg);
+        padding-bottom: 20px ;
+    }
+    .swiper__sect{
+        background-color:rgba(255,238,216,0.3);
+        padding: 30px 0px;
+        
+    }
+    .swiper-container{
+        height: 300px;
+        
+    }
+    .swiper-slide{
+        background-color: rgba(255,238,216,1);
+        border-radius: 9px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+    .redes_soci{
+        display: flex;
+        gap: 30px;
+    }
+    .email,.tele{
+        margin-top: -15px;
+    }
+    .carta{
+        padding: 5px;
+    }
+    .formu{
+        width: 80%;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        /* height: 80vh;
+        padding: 100px; */
+    }
+    .btn__canceenviar{
+        width: 200px;
+    }
+    .div__btn{
+        gap: 100px;
+    }
+    .img__form{
+        width: 100%;
+        height: 100%;
+        padding-top: 15px;
+        
+    }
+    .img__form img{
+        src: url(../img/pexels-ketut-subiyanto-5039659.jpg);
+    }
+    .div__form{
+        height: 92.3vh;
+    }
+    a{
+        transition: 0.3s;
+        
+    }
+    .btn:hover{
+        background-color: #FEC600;
+    }
+    .footer__sty{
+        color: white;
+        margin-bottom: -20px !important;
+        background-color: rgba(255,238,216,0.3);
+    }
+    .carta__pro{
+        padding: 20px;
+        background-color: rgba(255,238,216,0.3);
+        border-radius: 9px;
+    }
+    .body__card{
+        background-color: rgba(255,238,216, 1) !important;
+    }
+    ::-webkit-scrollbar {
+        width: 10px;
+      }
+      
+      ::-webkit-scrollbar-track {
+        background: #f1f1f1; 
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #888; 
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #555; 
+      }
+    @media (max-width:982px) {
+        .col__img{
+            visibility: hidden;
+        }
+        .row__imgform{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    @media (max-width: 767px) 
+    {
+        .formu{
+            padding: 10px;
+            height: auto;
+        } 
+    }
+    
+    
