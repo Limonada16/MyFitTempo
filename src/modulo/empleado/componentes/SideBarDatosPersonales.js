@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { useHistory, useParams } from "react-router-dom";
+import { useHistory, useParams, Link } from "react-router-dom";
 import { getEmpleadoById, putDatosById } from "../../../services/service2";
 import Swal from 'sweetalert2'
 import { withRouter } from "react-router-dom";
@@ -186,8 +186,8 @@ const SideBarDatosPersonales = (props, {history}) => {
                             </div>
                         </div>
                         
-                        <button type="button" className="btn btn-danger" onClick={()=>{history.push("/empleado/login")}}><i className="fa fa-times-circle iconno"
-                            aria-hidden="true" ></i> Cerrar Sesión</button>
+                        <Link type="button" className="btn btn-danger" to={{pathname:"/empleado/login"}}><i className="fa fa-times-circle iconno"
+                            aria-hidden="true" ></i> Cerrar Sesión</Link>
                     </div>
                 </div>
             </div>
